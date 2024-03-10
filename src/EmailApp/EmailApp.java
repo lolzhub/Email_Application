@@ -71,7 +71,6 @@ public class EmailApp {
                     System.out.println("Invalid choice. Please try again.");
             }
         }
-
         // Close the scanner to prevent resource leak
         scanner.close();
     }
