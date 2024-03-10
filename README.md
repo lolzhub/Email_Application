@@ -11,7 +11,7 @@ This is a simple email application written in Java, allowing users to create cus
 - **Alternate Email Address**: Users can specify an alternate email address.
 - **Password Change**: Functionality to change the password for an email account.
 
-## Usage
+## Usage: Method 1 (Running on Native machine)
 
 ### Prerequisites
 
@@ -34,30 +34,36 @@ git clone https://github.com/lolzhub/Email_Application.git
 
 5. Follow the prompts to create and manage email accounts.
 
-## Sample Code
+Here's a README.md template you can use to provide instructions for others to use your Docker image:
 
-```java
-package EmailApp;
+---
 
-public class EmailApp {
-    public static void main(String[] args) {
-        Email email = new Email("John", "Doe");
-        email.setMailboxCapacity(500);
-        email.setAlternateEmail("abc@pqr.xyz.com");
-        System.out.println(email.showInfo());
-    }
-}
-```
+## Usage: Method 2 (Running on Docker container)
 
-```java
-package EmailApp;
+To use this Docker image, follow these steps:
 
-import java.util.Scanner;
+1. **Pull the Docker Image**:
 
-public class Email {
-    // Class implementation
-}
-```
+   ```bash
+   docker pull lolzhub/email-app:latest
+   ```
+
+2. **Run the Docker Container**:
+
+   ```bash
+   docker run -it lolzhub/email-app:latest
+   ```
+
+   This command will start the Docker container in interactive mode, allowing you to interact with the Java email application.
+
+3. **Follow the Application Instructions**:
+
+   Once the container is running, follow the instructions provided by the Java email application. You can set the mailbox capacity, alternate email, change passwords, view account information, and more.
+
+
+## Additional Information
+
+- **Issues**: If you encounter any issues or have suggestions for improvements, please open an issue in the GitHub repository.
 
 ## Contributing
 
