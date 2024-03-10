@@ -34,11 +34,9 @@ git clone https://github.com/lolzhub/Email_Application.git
 
 5. Follow the prompts to create and manage email accounts.
 
-Here's a README.md template you can use to provide instructions for others to use your Docker image:
-
 ---
 
-## Usage: Method 2 (Running on Docker container)
+## Usage: Method 2 (Running on a Docker container)
 
 To use this Docker image, follow these steps:
 
