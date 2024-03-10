@@ -28,7 +28,7 @@ public class EmailApp {
 
         // Create an instance of Email using the provided information
         Email email = new Email(firstName, lastName);
-        System.out.println("Congrats! New credentials generated!");
+        System.out.println("\nCongrats! New credentials generated!");
         System.out.println(email.showInfo());
         System.out.println("Please feel free to update any info or else you can exit");
 

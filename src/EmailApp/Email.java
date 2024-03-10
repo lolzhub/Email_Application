@@ -13,7 +13,7 @@ public class Email {
     private String email;
     private String companySuffix="google.com";
     private int mailboxCapacity;
-    private String alternateEmail;
+    private String alternateEmail="None";
 
 //    Constructor to receive first name and last name
     public Email(String firstName, String lastName){
@@ -104,6 +104,7 @@ public class Email {
                 "\nDepartment: "+dpt+
                 "\nEmail: "+email+
                 "\nPassword: "+password+
+                "\nAlternate email: "+alternateEmail+
                 "\nMailbox Capacity: "+mailboxCapacity+" mb\n================================================================";
     }
 
