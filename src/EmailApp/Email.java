@@ -9,10 +9,10 @@ public class Email {
     private String department;
     private String dpt;
     private String password;
-    private int defaultPasswordLength=10;
+    private int defaultPasswordLength=15;
     private String email;
     private String companySuffix="google.com";
-    private int mailboxCapacity;
+    private int mailboxCapacity=10;
     private String alternateEmail="None";
 
 //    Constructor to receive first name and last name

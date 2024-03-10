@@ -9,7 +9,7 @@ public class EmailApp {
         // Prompt the user to enter their first name
         String firstName = "";
         while (firstName.isEmpty()) {
-            System.out.print("Enter your first name: ");
+            System.out.print("........Hello! Welcome!........\nEnter your first name: ");
             firstName = scanner.nextLine().trim();
             if (firstName.isEmpty()) {
                 System.out.println("First name cannot be empty. Please try again.");
